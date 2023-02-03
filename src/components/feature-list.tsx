@@ -12,6 +12,8 @@ export interface FeatureListProps {
 
 export default function FeatureList(props: FeatureListProps) {
   return (
+    <>
+    { props.content != null &&
     <Container width="fullbleed">
       <Box background="muted" radius="large">
         <Box center paddingY={5}>
@@ -26,6 +28,8 @@ export default function FeatureList(props: FeatureListProps) {
         ))}
       </Box>
     </Container>
+  }
+</>
   )
 }
 

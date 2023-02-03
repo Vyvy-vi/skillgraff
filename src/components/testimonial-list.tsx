@@ -49,6 +49,7 @@ export interface TestimonialListProps {
 
 export default function TestimonialList(props: TestimonialListProps) {
   return (
+    <> { props.content != null &&
     <Section>
       <Container>
         <Box center>
@@ -66,6 +67,8 @@ export default function TestimonialList(props: TestimonialListProps) {
         </FlexList>
       </Container>
     </Section>
+    }
+    </>
   )
 }
 

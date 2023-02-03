@@ -24,6 +24,8 @@ export interface AboutStatListProps {
 
 export default function AboutStatList(props: AboutStatListProps) {
   return (
+    <>
+    {props.content != null &&
     <Section>
       <Container>
         <FlexList className={styles.statList} variant="center" responsive>
@@ -33,6 +35,8 @@ export default function AboutStatList(props: AboutStatListProps) {
         </FlexList>
       </Container>
     </Section>
+    }
+    </>
   )
 }
 

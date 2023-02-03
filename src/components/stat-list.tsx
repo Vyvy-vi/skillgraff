@@ -44,6 +44,8 @@ export interface StatListProps {
 
 export default function StatList(props: StatListProps) {
   return (
+    <> 
+    { props.content != null &&
     <Container width="fullbleed">
       <Section padding={5} radius="large" background="primary">
         <Flex responsive variant="end">
@@ -57,7 +59,7 @@ export default function StatList(props: StatListProps) {
             </Heading>
             {props.text && <Text variant="lead">{props.text}</Text>}
             <FlexList wrap gap={4}>
-              {props.content.map((stat) => (
+              {props.content != null && props.content.map((stat) => (
                 <li key={stat.id}>
                   <Stat {...stat} />
                 </li>
@@ -78,6 +80,8 @@ export default function StatList(props: StatListProps) {
         </Flex>
       </Section>
     </Container>
+    }
+    </>
   )
 }
 

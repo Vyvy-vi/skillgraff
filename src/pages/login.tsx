@@ -5,9 +5,9 @@ import * as sections from "../components/sections"
 import Fallback from "../components/fallback"
 import SEOHead from "../components/head"
 
-interface AboutProps {
+interface LoginProps {
   data: {
-    aboutPage: {
+    loginPage: {
       id: string
       title: string
       description: string
@@ -17,12 +17,12 @@ interface AboutProps {
   }
 }
 
-export default function About(props: AboutProps) {
-  const { aboutPage } = props.data
+export default function Login(props: LoginProps) {
+  const { loginPage } = props.data
 
   return (
     <Layout>
-      {aboutPage.blocks.map((block) => {
+      {loginPage.blocks.map((block) => {
         const { id, blocktype, ...componentProps } = block
         const Component = sections[blocktype] || Fallback
         return <Component key={id} {...(componentProps as any)} />
@@ -30,9 +30,9 @@ export default function About(props: AboutProps) {
     </Layout>
   )
 }
-export const Head = (props: AboutProps) => {
-  const { aboutPage } = props.data
-  return <SEOHead {...aboutPage} />
+export const Head = (props: LoginProps) => {
+  const { loginPage } = props.data
+  return <SEOHead {...loginPage} />
 }
 export const query = graphql`
   {

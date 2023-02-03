@@ -63,7 +63,7 @@
         },
         {
           "id": "description",
-          "name": "Description",
+          "name": "",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -2382,7 +2382,7 @@
         },
         {
           "id": "description",
-          "name": "Description",
+          "name": "",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -3125,7 +3125,7 @@
         },
         {
           "id": "description",
-          "name": "Description",
+          "name": "",
           "type": "Symbol",
           "localized": false,
           "required": false,

@@ -31,6 +31,8 @@ export interface LogoListProps {
 
 export default function LogoList(props: LogoListProps) {
   return (
+    <>
+    {props.logos != null &&
     <Section paddingY={4}>
       <Container width="narrow">
         {props.text && (
@@ -51,6 +53,8 @@ export default function LogoList(props: LogoListProps) {
         </FlexList>
       </Container>
     </Section>
+    }
+    </>
   )
 }
 

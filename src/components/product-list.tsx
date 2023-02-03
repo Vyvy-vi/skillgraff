@@ -49,6 +49,8 @@ export interface ProductListProps {
 
 export default function ProductList(props: ProductListProps) {
   return (
+    <>
+    { props.content != null &&
     <Section>
       <Container>
         <Box center paddingY={4}>
@@ -67,6 +69,8 @@ export default function ProductList(props: ProductListProps) {
         </FlexList>
       </Container>
     </Section>
+    }
+    </>
   )
 }
 

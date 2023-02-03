@@ -26,6 +26,8 @@ export default function AboutLogoList(props: AboutLogoListProps) {
           <LinkList links={props.links} />
         </Box>
       </Container>
+      <> {
+      props.logos != null &&
       <Container width="narrow">
         <Box paddingY={6}>
           <FlexList gap={5} variant="center">
@@ -37,6 +39,8 @@ export default function AboutLogoList(props: AboutLogoListProps) {
           </FlexList>
         </Box>
       </Container>
+      }
+      </>
     </Section>
   )
 }

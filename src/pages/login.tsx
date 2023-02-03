@@ -7,7 +7,7 @@ import SEOHead from "../components/head"
 
 interface LoginProps {
   data: {
-    loginPage: {
+    aboutPage: {
       id: string
       title: string
       description: string
@@ -18,11 +18,11 @@ interface LoginProps {
 }
 
 export default function Login(props: LoginProps) {
-  const { loginPage } = props.data
+  const { aboutPage } = props.data
 
   return (
     <Layout>
-      {loginPage.blocks.map((block) => {
+      {aboutPage.blocks.map((block) => {
         const { id, blocktype, ...componentProps } = block
         const Component = sections[blocktype] || Fallback
         return <Component key={id} {...(componentProps as any)} />
@@ -31,8 +31,8 @@ export default function Login(props: LoginProps) {
   )
 }
 export const Head = (props: LoginProps) => {
-  const { loginPage } = props.data
-  return <SEOHead {...loginPage} />
+  const { aboutPage } = props.data
+  return <SEOHead {...aboutPage} />
 }
 export const query = graphql`
   {

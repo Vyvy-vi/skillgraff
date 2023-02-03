@@ -16,6 +16,7 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.0.0",
     "@contentful/rich-text-html-renderer": "^15.11.1",
     "@fontsource/dm-mono": "^4.5.9",
     "@fontsource/dm-sans": "^4.5.8",
@@ -24,6 +25,7 @@
     "@vanilla-extract/css-utils": "^0.1.2",
     "@vanilla-extract/webpack-plugin": "^2.1.12",
     "gatsby": "^5.0.0",
+    "gatsby-plugin-google-gapi": "^0.0.11",
     "gatsby-plugin-image": "^3.0.0",
     "gatsby-plugin-manifest": "^5.0.0",
     "gatsby-plugin-sharp": "^5.0.0",

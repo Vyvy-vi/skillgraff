@@ -33,6 +33,18 @@
     signedsource "^1.0.0"
     yargs "^15.3.1"
 
+"@auth0/auth0-react@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@auth0/auth0-react/-/auth0-react-2.0.0.tgz#74e4d3662896e71dd95cca70b395715825da3b4e"
+  integrity sha512-3pf41wU6ksm/6uPYAwjX5bZ7ma/K4LethibagTrKkMPuS8UatBvxLDtl3Aq52ZlJi1I+I42ckEfzWqloNxssIg==
+  dependencies:
+    "@auth0/auth0-spa-js" "^2.0.2"
+
+"@auth0/auth0-spa-js@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@auth0/auth0-spa-js/-/auth0-spa-js-2.0.2.tgz#fe0d5eeb6f0da48c24913a07b3565d48792de6d5"
+  integrity sha512-sxK9Lb6gXGImqjmWBfndA/OSNY4YLPTPwJEVuitXIOZ1p3EoqHM4zjIHvcdiYIaVo+cUfEf3l0bf8UA7Xi4tjg==
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -6020,6 +6032,11 @@ gatsby-parcel-config@^1.5.0:
     "@parcel/runtime-js" "2.8.2"
     "@parcel/transformer-js" "2.8.2"
     "@parcel/transformer-json" "2.8.2"
+
+gatsby-plugin-google-gapi@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gapi/-/gatsby-plugin-google-gapi-0.0.11.tgz#d3b8363e83cc9f7b0c8fc8ac758bf42d01f3695d"
+  integrity sha512-xiLYkyzhxRILRLvy1rWEeTf7SdW6IxVdi8NrL+tQHPoAVkvj3JJutiBKXWnppU1zDzZv9VdjiTd+k9JiPZso7w==
 
 gatsby-plugin-image@^3.0.0:
   version "3.5.0"

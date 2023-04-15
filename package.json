@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-contentful-homepage-ts",
+  "name": "skillgraff",
   "version": "1.0.0",
   "engines": {
     "node": ">=18.0.0"
   },
+  "license": "0BSD",
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",
@@ -25,7 +26,6 @@
     "@vanilla-extract/css-utils": "^0.1.2",
     "@vanilla-extract/webpack-plugin": "^2.1.12",
     "gatsby": "^5.0.0",
-    "gatsby-plugin-google-gapi": "^0.0.11",
     "gatsby-plugin-image": "^3.0.0",
     "gatsby-plugin-manifest": "^5.0.0",
     "gatsby-plugin-sharp": "^5.0.0",

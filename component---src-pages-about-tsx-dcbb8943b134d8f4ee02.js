@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkskillgraff=self.webpackChunkskillgraff||[]).push([[49],{2766:function(e,t,n){n.r(t),n.d(t,{Head:function(){return o},default:function(){return s}});var a=n(7294),r=n(7054),c=n(5250),u=n(4725),l=n(2596);function s(e){const{aboutPage:t}=e.data;return a.createElement(r.Z,null,t.blocks.map((e=>{const{id:t,blocktype:n,...r}=e,l=c[n]||u.Z;return a.createElement(l,Object.assign({key:t},r))})))}const o=e=>{const{aboutPage:t}=e.data;return a.createElement(l.Z,t)}}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-dcbb8943b134d8f4ee02.js.map

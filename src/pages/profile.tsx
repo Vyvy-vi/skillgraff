@@ -19,7 +19,7 @@ function Login() {
 }
 
 export default withAuthenticationRequired(Login, {
-  returnTo: "/"
+  returnTo: "/profile"
 });
 
 export const Head = () => {

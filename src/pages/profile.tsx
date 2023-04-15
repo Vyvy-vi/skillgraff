@@ -11,8 +11,8 @@ function Login() {
     <Layout>
       <Box paddingY={6}>
       <Flex variant="column">
-        {user.picture} ? <img src={user.picture} alt="profile" className="" /> : {}
-        <Heading as="h2">{user.name}.</Heading> 
+        <img src={user.picture} alt="profile image" className="" />
+        <Heading as="h2">{user.name}</Heading> 
         <p>Logged in as {user.email}.</p>
       </Flex>
       </Box>
